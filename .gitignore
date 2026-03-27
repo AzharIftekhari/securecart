@@ -1,0 +1,12 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Secrets
+*_pem
+*_key
+*_tfvars
+
+# SSH keys
+securecart-key
