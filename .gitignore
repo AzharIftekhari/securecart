@@ -4,9 +4,11 @@
 *.tfstate.*
 
 # Secrets
-*_pem
-*_key
-*_tfvars
+*.pem
+*.key
+*.tfvars
 
 # SSH keys
 securecart-key
+
+keys.tf
