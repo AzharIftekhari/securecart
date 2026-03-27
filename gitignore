@@ -1,0 +1,16 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Sensitive files
+*.tfvars
+*.pem
+*.key
+
+# SSH keys
+id_rsa
+id_rsa.pub
+
+# Logs
+*.log
