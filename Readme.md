@@ -1,9 +1,4 @@
-# Step 1: Launch EC2 Instance in Private Subnet
-# Step 2: Create Application Load Balancer (ALB)
-# Step 3: Update Security Group of EC2 to Allow ALB
-# Step 4: Launch Bastion Host in Public Subnet
-
-# Step 5: SSH into App EC2 via Bastion Host
+# Step 1: SSH into App EC2 via Bastion Host
 
 Upload PEM file to the Bastion Host
 
@@ -21,7 +16,7 @@ Replace <Private_IP_of_app_instance> with the actual private IP of the EC2 insta
 You can find it in the EC2 dashboard → Instances → Private IP column
 Once connected, you’re now inside your private EC2 and ready to install the Node.js app.
 
-# Step 6: Install Node.js App on Private EC2
+# Step 2: Install Node.js App on Private EC2
 Install Node.js (using NVM)
 Once inside the terminal session:
 # Download and run the NVM (Node Version Manager) installation script
