@@ -7,7 +7,7 @@
 # Secrets — never commit
 terraform.tfvars
 *.tfvars
-!terraform.tfvars.example
+terraform.tfvars.example
 
 # Crash logs
 crash.log
