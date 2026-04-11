@@ -87,4 +87,4 @@ override.tf.json
 *_override.tf.json
 
 #Secrets
-secrets
+*secrets*
