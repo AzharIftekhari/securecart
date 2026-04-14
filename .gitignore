@@ -87,4 +87,4 @@ override.tf.json
 *_override.tf.json
 
 
-modules/secrets/variables.tf
+secrets
